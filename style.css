@@ -1,1 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #B3CFE5;
+  color: #1A3D63;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #1A3D63;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.año {
+  background-color: #4A7FA7;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  border-radius: 8px;
+}
+
+.cuatrimestre {
+  background-color: white;
+  border: 2px solid #1A3D63;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.materia {
+  background-color: #B3CFE5;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+input:disabled + label {
+  color: gray;
+  text-decoration: line-through;
+}
 
